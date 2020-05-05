@@ -9,12 +9,9 @@ h1, h2, h3 {
 
 
 h2 {
-  color: #3046C5;
+  color: rgb(16, 206, 111);
 }
 
-header h2 {
-  color: #CEC8FF;
-}
 
 footer {
   background-image: linear-gradient(#CEC8FF, white);
@@ -22,23 +19,20 @@ footer {
 }
 
 .jumbotron {
-  margin: 0;
+  margin: 0 auto;
   padding: 20px;
   padding-bottom: 0px;
   background-image: linear-gradient(to right, #ebe3e3, #eedfdf, rgb(38, 29, 39));
   color: white;
 }
 
-.row-content {
-  padding: 50px 0;
-  border-bottom: 1px ridge;
-  min-height: 200px;
-}
+
 
 .navbar {
   padding-top: 0;
+  padding-bottom: 0;
   background-image: linear-gradient(to right, #ebe3e3, #eedfdf, rgb(38, 29, 39));
-
+  text-align: center;
 }
 
 
@@ -51,8 +45,7 @@ footer {
 }
 
 #hero:before {
-  content: "";
-  background: rgba(5, 13, 24, 0.3);
+  content: "";  
   position: absolute;
   bottom: 0;
   top: 0;
@@ -82,12 +75,6 @@ footer {
   font-family: "Poppins", sans-serif;
 }
 
-#hero p span {
-  color: #fff;
-  padding-bottom: 4px;
-  letter-spacing: 1px;
-  border-bottom: 3px solid #149ddd;
-}
 
 @media (min-width: 1024px) {
   #hero {
@@ -116,8 +103,7 @@ footer {
 }
 
 #applicationMan:before {
-  content: "";
-  background: rgba(5, 13, 24, 0.3);
+  content: "";  
   position: absolute;
   bottom: 0;
   top: 0;
@@ -126,7 +112,7 @@ footer {
   z-index: 1;
 }
 
-#applicationMan .approachMan-container {
+#applicationMan .applicationMan-container {
   position: relative;
   z-index: 2;
   min-width: 300px;
@@ -153,12 +139,6 @@ footer {
   
 }
 
-#applicationMan p span {
-  color: #fff;
-  padding-bottom: 4px;
-  letter-spacing: 1px;
-  
-}
 
 @media (min-width: 1024px) {
   #applicationMan {
@@ -190,8 +170,7 @@ footer {
 }
 
 #approachMan:before {
-  content: "";
-  background: rgba(5, 13, 24, 0.3);
+  content: "";  
   position: absolute;
   bottom: 0;
   top: 0;
@@ -227,13 +206,6 @@ footer {
   
 }
 
-#approachMan p span {
-  color: #fff;
-  padding-bottom: 4px;
-  letter-spacing: 1px;
-  
-}
-
 @media (min-width: 1024px) {
   #approachMan {
     background-attachment: fixed;
@@ -262,8 +234,7 @@ footer {
 }
 
 #appStatusMan:before {
-  content: "";
-  background: rgba(5, 13, 24, 0.3);
+  content: "";  
   position: absolute;
   bottom: 0;
   top: 0;
@@ -303,12 +274,6 @@ footer {
   color: white
 }
 
-#appStatusMan p span {
-  color: #fff;
-  padding-bottom: 4px;
-  letter-spacing: 1px;
-  
-}
 
 @media (min-width: 1024px) {
   #appStatusMan {
@@ -337,8 +302,7 @@ footer {
 }
 
 #newsMan:before {
-  content: "";
-  background: rgba(5, 13, 24, 0.3);
+  content: "";  
   position: absolute;
   bottom: 0;
   top: 0;
@@ -378,12 +342,6 @@ footer {
   color: white
 }
 
-#newsMan p span {
-  color: #fff;
-  padding-bottom: 4px;
-  letter-spacing: 1px;
-  
-}
 
 @media (min-width: 1024px) {
   #newsMan {
