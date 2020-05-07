@@ -36,7 +36,7 @@ footer {
   justify-content: center;
 }
 
-
+/* Hero Section */
 
 #hero {
   width: 100%;
@@ -44,22 +44,6 @@ footer {
   background: url("/images/kitchenphoto1.jpg") top center;
   background-size: cover;
 }
-
-/* #hero:before {
-  content: "";  
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
-} */
-
- #hero .hero-container {
-  position: relative;
-  z-index: 2;
-  min-width: 300px;
-} 
 
 #hero h1 {
   margin: 0 0 10px 0;
@@ -76,24 +60,13 @@ footer {
   font-family: "Poppins", sans-serif;
 }
 
-
-@media (min-width: 1024px) {
-  #hero {
-    background-attachment: fixed;
-  }
-}
-
-@media (max-width: 768px) {
-  #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
-  }
 }
+
+/* Application Page */
 
 
 #applicationMan {
@@ -103,15 +76,7 @@ footer {
   background-size: cover;
 }
 
-#applicationMan:before {
-  content: "";  
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
-}
+
 
 #applicationMan .applicationMan-container {
   position: relative;
@@ -140,28 +105,16 @@ footer {
   
 }
 
-
-@media (min-width: 1024px) {
-  #applicationMan {
-    background-attachment: fixed;
-  }
-}
-
-@media (max-width: 768px) {
-  #applicationMan h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-  #applicationMan h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
+#applicationMan h2 {
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 30px;
 }
 
 
 
 
+/* Approach Page */
 
 #approachMan {
   width: 100%;
@@ -170,15 +123,6 @@ footer {
   background-size: cover;
 }
 
-#approachMan:before {
-  content: "";  
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
-}
 
 #approachMan .approachMan-container {
   position: relative;
@@ -207,25 +151,8 @@ footer {
   
 }
 
-@media (min-width: 1024px) {
-  #approachMan {
-    background-attachment: fixed;
-  }
-}
 
-@media (max-width: 768px) {
-  #approachMan h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-  #approachMan h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
-}
-
-
+/* Application Status Page */
 
 #appStatusMan {
   width: 100%;
@@ -234,15 +161,6 @@ footer {
   background-size: cover;
 }
 
-#appStatusMan:before {
-  content: "";  
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
-}
 
 #appStatusMan .appStatusMan-container {
   position: relative;
@@ -275,25 +193,15 @@ footer {
   color: white
 }
 
-
-@media (min-width: 1024px) {
-  #appStatusMan {
-    background-attachment: fixed;
-  }
+#appStatusMan h2 {
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 30px;
 }
 
-@media (max-width: 768px) {
-  #appStatusMan h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-  #appStatusMan h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
-}
 
+
+/* News Page */
 
 #newsMan {
   width: 100%;
@@ -302,15 +210,6 @@ footer {
   background-size: cover;
 }
 
-#newsMan:before {
-  content: "";  
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
-}
 
 #newsMan .appStatusMan-container {
   position: relative;
@@ -343,22 +242,10 @@ footer {
   color: white
 }
 
-
-@media (min-width: 1024px) {
-  #newsMan {
-    background-attachment: fixed;
-  }
+#newsMan h2 {
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 30px;
 }
 
-@media (max-width: 768px) {
-  #newsMan h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-  #newsMan h2 {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 30px;
-  }
-}
 
