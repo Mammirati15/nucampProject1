@@ -37,16 +37,16 @@ footer {
   justify-content: center;
 }
 
-/* Hero Section */
+/* Home Section */
 
-#hero {
+#home {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   background: url("/images/kitchenphoto1.jpg") top center;
   background-size: cover;
 }
 
-#hero h1 {
+#home h1 {
   margin: 0 0 10px 0;
   font-size: 64px;
   font-weight: 700;
@@ -54,18 +54,19 @@ footer {
   color: rgb(16, 145, 231);
 }
 
-#hero p {
+#home p {
   color: rgb(35, 228, 122);
   margin-bottom: 50px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
 
-  #hero h2 {
+  #home h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
 }
+
 
 /* Application Page */
 
@@ -75,14 +76,6 @@ footer {
   min-height: 100vh;
   background: url("/images/booze1.jpg") top center;
   background-size: cover;
-}
-
-
-
-#applicationMan .applicationMan-container {
-  position: relative;
-  z-index: 2;
-  min-width: 300px;
 }
 
 #applicationMan h1 {
@@ -125,13 +118,6 @@ footer {
   background-size: cover;
 }
 
-#approachMan .approachMan-container {
-  position: relative;
-  z-index: 0;
-  min-width: 300px;
-}
-
-
 
 #approachMan h1 {
   margin: 0 0 10px 0;
@@ -166,12 +152,6 @@ footer {
   background-size: cover;
 }
 
-
-#appStatusMan .appStatusMan-container {
-  position: relative;
-  z-index: 2;
-  min-width: 300px;
-}
 
 #appStatusMan h1 {
   margin: 0 0 10px 0;
@@ -216,12 +196,6 @@ footer {
 }
 
 
-#newsMan .appStatusMan-container {
-  position: relative;
-  z-index: 2;
-  min-width: 300px;
-}
-
 #newsMan h1 {
   margin: 0 0 10px 0;
   font-size: 50px;
@@ -254,3 +228,22 @@ footer {
 }
 
 
+
+#portfolioMan {
+  width: 100%;
+  min-height: 50vh;
+  background: url("/images/kitchenr4.jpg") top center;
+  background-size: cover;
+}
+
+#portfolioMan h1 {
+  margin: 0 0 10px 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: white;
+}
+
+
+
+  
