@@ -60,8 +60,8 @@ document.getElementById("giopza").onclick = function () {
 
 
 function fiveguysb(x) {
-    x.style.background = "157px";
-    x.style.width = "157px";
+    x.style.background = "225px";
+    x.style.width = "225px";
   }
   
   function fiveguys(x) {

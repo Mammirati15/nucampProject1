@@ -245,5 +245,11 @@ footer {
 }
 
 
+#images img {
+  min-height: 200px;
+  min-width: 200px;
+  margin: 10px;
+  padding: 10px;
+}
 
   
