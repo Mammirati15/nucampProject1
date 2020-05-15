@@ -51,11 +51,11 @@ footer {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: rgb(16, 145, 231);
+  color: white;
 }
 
 #home p {
-  color: rgb(35, 228, 122);
+  color: white;
   margin-bottom: 50px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
